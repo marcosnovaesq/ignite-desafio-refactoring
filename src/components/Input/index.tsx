@@ -19,6 +19,7 @@ const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
   const { fieldName, defaultValue, registerField } = useField(name);
 
   const handleInputFocus = useCallback(() => {
+    //comment
     setIsFocused(true);
   }, []);
 
